@@ -1,0 +1,174 @@
+
+.jumbotron{
+    text-align: center;
+    background-color: #2d3436;
+background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+    
+}
+h1.display-4{
+    color:lavender;
+}
+p.lead{
+    color: lavender;
+}
+
+div.crousel{
+   margin-bottom: 8px;
+}
+nav.navbar a.nav-link{
+    color: lightcyan;
+}
+
+.container {
+    position: relative;
+    width: auto;
+    
+  }
+  .abc{
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+
+  }
+  
+  .parallax {
+    /* The image used */
+    background-image: url("cmilla.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .parallax2 {
+    /* The image used */
+    background-image: url("style.jpg");
+    
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .middle {
+    transition: .8s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .parallax2:hover .image {
+    opacity: 0.3;
+  }
+  
+  .parallax2:hover .middle {
+    opacity: 1;
+  }
+  .text {
+    background-color:rgb(233, 233, 233);
+    color:black;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    
+    opacity: 0.6;
+  }
+  .transbox h1{
+      text-align: center;
+      color: black;
+  }
+
+  
+
+  .skill-class h4{
+      text-align: left;
+
+  }
+  .skill-class h1, h4{
+    color: blanchedalmond;}
+.contain h1{
+    text-align: center;
+}
+.cool-stuff{
+  margin-top: 20px;
+}
+
+button.cool-stuffbtn{
+  background-color: red;
+  color: white;
+  display: block;
+  margin: auto;
+}
+
+
+/*---------social media------*/
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+ 
+  
+  article p{
+      font-size: 20px;
+      line-height: 1.2;
+      
+  }
+  
